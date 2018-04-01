@@ -42,9 +42,9 @@ class Quiz extends Component {
 
     if (currentQuestionIndex > 0 && currentQuestionIndex === questions.length) {
       return (
-        <View style={styles.container}>
-          <View style={styles.scoreContainer}>
-            <Text style={styles.scoreLbl}>Score</Text>
+        <View style={ styles.container }>
+          <View style={ styles.scoreContainer }>
+            <Text style={ styles.scoreLbl }>Score</Text>
             <Text style={ styles.score }>
               { correctAnswersCount / questions.length * 100 }%
             </Text>

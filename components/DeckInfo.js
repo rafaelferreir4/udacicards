@@ -38,7 +38,7 @@ class DeckInfo extends Component {
           style={[ styles.button, styles.startQuizBtn ]}
           onPress={() => navigateToStartQuiz(deck.title)}
         >
-          <Text style={[styles.btnText, styles.startQuizBtnText]}>
+          <Text style={ [styles.btnText, styles.startQuizBtnText] }>
             Play the quiz
           </Text>
         </TouchableOpacity>
